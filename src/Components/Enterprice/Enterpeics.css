@@ -1,0 +1,81 @@
+:root {
+  --primary_Clr: #0a2640;
+  --round_bg: #1c3d5b;
+  --btn_Clr: #65e4a3;
+}
+
+.enterprice {
+  padding: 5% 8%;
+  background: var(--primary_Clr);
+
+  .title {
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 5%;
+  }
+
+  .enterprice_wripper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+.card_wripper {
+  width: 33%;
+  height: 54vh;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  cursor: progress;
+  transition: .5s ease-out;
+
+  .description {
+    font-size: 25px;
+
+    .quote {
+      font-size: 22px;
+    }
+  }
+
+  .details {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+
+    .img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .person {
+      margin-left: 13px;
+
+      .name {
+        font-size: 20px;
+        color: #0a2640;
+        font-weight: 500;
+        padding-bottom: 7px;
+      }
+
+      .position {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+.card_wripper:hover {
+    transform: scale(1.1);
+}

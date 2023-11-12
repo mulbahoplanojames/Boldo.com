@@ -1,0 +1,40 @@
+.number {
+  text-align: center;
+  padding: 70px 50px;
+  background: #0a2640;
+  color: #fff;
+
+  .key_title {
+    font-size: 17px;
+    padding-bottom: 1.2%;
+  }
+
+  .title {
+    font-size: 45px;
+    font-weight: 300;
+    padding-bottom: 2%;
+  }
+
+  .number_wripper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .number_content {
+      width: 25%;
+      height: 25vh;
+      padding: 20px 0px;
+
+      .num {
+        font-size: 5rem;
+        font-weight: 300;
+        color: #65e4a3;
+      }
+
+      .description {
+        font-size: 18px;
+      }
+    }
+  }
+}

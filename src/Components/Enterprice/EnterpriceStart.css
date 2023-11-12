@@ -1,0 +1,35 @@
+:root {
+  --primary_Clr: #0a2640;
+  --round_bg: #1c3d5b;
+  --btn_Clr: #65e4a3;
+}
+
+.enterprice_start {
+  padding: 5% 0px;
+
+  .start_wripper {
+    width: 88%;
+    height: 60vh;
+    background: var(--primary_Clr);
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+
+    .title {
+        font-size: 45px;
+        color: #fff;
+        padding: 5% 0px;
+    }
+
+    #input {
+        width: 44%;
+        height: 10vh;
+        border-radius: 50px;
+        outline: none;
+        padding: 20px;
+        font-size: 20px;
+        color: var(--primary_Clr);
+        margin-right: 30px;
+    }
+  }
+}

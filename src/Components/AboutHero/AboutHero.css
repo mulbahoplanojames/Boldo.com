@@ -1,0 +1,32 @@
+:root {
+    --primary_Clr: #0a2640;
+    --round_bg: #1c3d5b;
+    --btn_Clr: #65e4a3;
+}
+
+.abouthero_wripper {
+    background: var(--primary_Clr);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+
+    .main_title {
+        font-size: 19px;
+        padding-bottom: 2.5%;
+    }
+
+    .title {
+        font-size: 45px;
+        padding-bottom: 2%;
+    }
+
+    .description {
+        font-size: 19px;
+    }
+}
+
+

@@ -1,0 +1,51 @@
+:root {
+    --primary_Clr: #0a2640;
+    --round_bg: #1c3d5b;
+    --btn_Clr: #65e4a3;
+}
+
+
+.hero {
+    padding: 14% 0px 10% 0px;
+    background: var(--primary_Clr);
+
+}
+
+
+.hero_wripper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+
+    .hero_content {
+        width: 45%;
+        height: 66vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+
+        .hero_title,
+        .hero_description {
+            color: #fff;
+        }
+
+        .hero_title {
+            font-size: 45px;  
+            font-weight: 400;  
+            padding-bottom: 3%;
+        }
+
+        .hero_description {
+            font-size: 19px;
+            padding-bottom: 5%;
+        }
+    }
+
+    .hero_content2 {
+        width: 38%;
+    }
+}
+
