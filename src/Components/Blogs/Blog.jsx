@@ -3,6 +3,12 @@ import "/src/Components/Blogs/Blog.css";
 import BlogCard from "./BlogCard";
 import BlogBtn from "../Buttons/BlogBtn";
 import { Link } from "react-router-dom";
+import blogimg1 from "../../assets/1.png";
+import profile1 from "../../assets/profile1.png";
+import blogimg2 from "../../assets/2B.png";
+import profile2 from "../../assets/profile2.png";
+import blogimg3 from "../../assets/3B.png";
+import profile3 from "../../assets/profile3.png";
 
 const Blog = () => {
   return (

@@ -1,7 +1,9 @@
 import React from "react";
 import "/src/Components/Services/Services.css";
 import ServiceInitialCard from "./ServiceInitialCard";
-
+import img1 from "../../assets/1.png";
+import img2 from "../../assets/2.png";
+import img3 from "../../assets/3.png";
 
 const Services = () => {
   return (
@@ -13,21 +15,27 @@ const Services = () => {
         </h1>
 
         <div className="services_primary_wripper">
-            < ServiceInitialCard  
-              card_head={<img src="src/assets/1.png"></img>}
-              card_title={'Cool feature title'}
-              card_description={'Learning curve network effects return on investment.'}
-            />
-            < ServiceInitialCard
-               card_head={<img src="src/assets/2.png"></img>}
-               card_title={'Even cooler Colaboration'}
-               card_description={'ROI benefits from network effects on the learning curve.'}
-            />
-            < ServiceInitialCard
-               card_head={<img src="src/assets/3.png"></img>}
-               card_title={'Essential Enterpreneurhip'}
-               card_description={'LROI benefits from the network effects of the learning curve.'}
-            />
+          <ServiceInitialCard
+            card_head={<img src="src/assets/1.png"></img>}
+            card_title={"Cool feature title"}
+            card_description={
+              "Learning curve network effects return on investment."
+            }
+          />
+          <ServiceInitialCard
+            card_head={<img src="src/assets/2.png"></img>}
+            card_title={"Even cooler Colaboration"}
+            card_description={
+              "ROI benefits from network effects on the learning curve."
+            }
+          />
+          <ServiceInitialCard
+            card_head={<img src="src/assets/3.png"></img>}
+            card_title={"Essential Enterpreneurhip"}
+            card_description={
+              "LROI benefits from the network effects of the learning curve."
+            }
+          />
         </div>
       </div>
     </>

@@ -1,5 +1,7 @@
 import React from "react";
 import "/src/Components/BlogsHero/Bloghero.css";
+import img8 from '../../assets/3.png'
+import profile1 from '../../assets/profile1.png'
 
 const Bloghero = () => {
   return (

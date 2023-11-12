@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { GrMail } from "react-icons/gr";
 import { BsPersonFillLock } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import img5 from "../../assets/login.jpg";
 
 const Login = () => {
   const [name, setName] = useState("");
