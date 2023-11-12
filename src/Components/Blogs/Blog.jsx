@@ -10,7 +10,7 @@ const Blog = () => {
       <div className="blog">
         <p className="main_title">Our Blog</p>
         <h1 className="title">
-          Value proposition accelerator product <br /> management venture
+          Value proposition accelerator products <br /> management venture
         </h1>
 
         <div className="blogs_wripper">

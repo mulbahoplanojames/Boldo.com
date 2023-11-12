@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero_wripper">
         <div className="hero_content">
             <h1 className="hero_title">Save time by building fast with Boldo Template</h1>
-            <p className="hero_description">Securing funds for B2B iPad partnership with a first-mover advantage, emphasizing innovation, successful deployment, and confidentiality through a handshake with the buyer.</p>
+            <p className="hero_description">Securing funds for B2B iPad partnership with a first-mover advantage, emphasizing innovation, successful deployments, and confidentiality through a handshake with the buyer.</p>
             <div className="hero_btns">
                 <Link to="/login">
                 < Btn2 value={'Buy Template'}/>
