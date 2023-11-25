@@ -12,25 +12,33 @@ const OurStory = () => {
     <>
       <div className="galary">
         <div className="galary_wripper">
-          <div className="galary_content content_one">
+          <div className="galary_content content_one display-none-small">
             <ImageCard
-              image={<img src="src/assets/1B.png" alt="Man on phone"></img>}
+              image={
+                <img src={storyimg1} alt="Man on phone" className="img"></img>
+              }
             />
             <ImageCard
-              image={<img src="src/assets/3B.png" alt="Man near trash"></img>}
+              image={
+                <img src={storyimg2} alt="Man near trash" className="img"></img>
+              }
             />
           </div>
-          <div className="galary_content">
-            <img src="src/assets/2B.png" alt="Team of developer" />{" "}
+          <div className="galary_content long-img">
+            <img src={storyimg3} alt="Team of developer" className="img" />{" "}
           </div>
           <div className="galary_content content_one">
             <ImageCard
               image={
-                <img src="src/assets/3c.png" alt="Team of developer"></img>
+                <img
+                  src={storyimg4}
+                  alt="Team of developer"
+                  className="img"
+                ></img>
               }
             />
             <ImageCard
-              image={<img src="src/assets/5A.png" alt="Employee"></img>}
+              image={<img src={storyimg5} alt="Employee" className="img"></img>}
             />
           </div>
         </div>
@@ -38,8 +46,7 @@ const OurStory = () => {
         <div className="our_story_wripper">
           <p className="key_title">Our Story</p>
           <h1 className="title">
-            Infographic for mainstream crowdfunding <br /> with a handshake
-            theme.
+            Infographic for mainstream crowdfunding with a handshake theme.
           </h1>
           <p className="description">
             Angel investor conversion, entrepreneur's first-mover advantage.

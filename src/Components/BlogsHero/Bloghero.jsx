@@ -1,7 +1,7 @@
 import React from "react";
 import "/src/Components/BlogsHero/Bloghero.css";
-import img8 from '../../assets/3.png'
-import profile1 from '../../assets/profile1.png'
+import img8 from "../../assets/3.png";
+import profile1 from "../../assets/profile1.png";
 
 const Bloghero = () => {
   return (
@@ -11,8 +11,8 @@ const Bloghero = () => {
         <h1 className="blog_title">Thoughts and words</h1>
 
         <div className="hero_blog_wripper">
-          <div className="hero_blog_content">
-            <img src="src/assets/3.png" alt="" />
+          <div className="hero_blog_content hero_blog_content_one">
+            <img src={img8} alt="assets image" className="img" />
           </div>
           <div className="hero_blog_content hero_blog_content2">
             <p className="date">
@@ -23,7 +23,7 @@ const Bloghero = () => {
             </h1>
             <div className="blogger_wripper">
               <div className="img">
-                <img src="src/assets/profile1.png" alt="profile1" />
+                <img src={profile1} alt="profile1" />
               </div>
               <p className="name">Chandler Bing</p>
             </div>

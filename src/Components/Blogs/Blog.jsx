@@ -21,28 +21,28 @@ const Blog = () => {
 
         <div className="blogs_wripper">
           <BlogCard
-            head_image={<img src="src/assets/1.png" />}
+            head_image={<img src={blogimg1} className="img" />}
             date={"Novmember 25, 2022"}
             description={" Pitch termsheet backing validation focus release"}
-            blog_img={<img src="src/assets/profile1.png" alt="" />}
+            blog_img={<img src={profile1} alt="" />}
             name={"Chandler Bing"}
           />
           <BlogCard
-            head_image={<img src="src/assets/2B.png" />}
+            head_image={<img src={blogimg2} className="img" />}
             date={"Novmember 25, 2022"}
             description={
               " Seed round direct mailling non-disclosure agreement graphical user interface rockstar"
             }
-            blog_img={<img src="src/assets/profile2.png" alt="" />}
+            blog_img={<img src={profile2} alt="profile2" />}
             name={"Rachel Green"}
           />
           <BlogCard
-            head_image={<img src="src/assets/3B.png" />}
+            head_image={<img src={blogimg3} className="img"/>}
             date={"October 25, 2022"}
             description={
               "Beta protostye sale ipad Gen-z marketing network effect value proposition"
             }
-            blog_img={<img src="src/assets/profile3.png" alt="" />}
+            blog_img={<img src={profile3} alt="profile3" />}
             name={"Monica Geller"}
           />
         </div>

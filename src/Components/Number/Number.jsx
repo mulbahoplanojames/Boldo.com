@@ -7,7 +7,7 @@ const Number = () => {
       <div className="number">
         <p className="key_title">Our numbers</p>
         <h1 className="title">
-          Handshake infographic mass market <br /> crowdfunding iteration.
+          Handshake infographic mass market crowdfunding iteration.
         </h1>
         <div className="number_wripper">
           <div className="number_content">

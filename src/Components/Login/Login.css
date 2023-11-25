@@ -1,12 +1,9 @@
 .login {
-  height: 100vh;
   background: #0a2640;
-  margin-top: 7%;
-  padding: 3% 0px;
+  padding: 10% 0px 5% 0px;
 
   .login_wripper {
-    height: 75vh;
-    width: 70%;
+    width: 75%;
     border-radius: 40px;
     margin: auto;
     overflow: hidden;
@@ -16,11 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
     .img,
     .form {
       height: 80vh;
-      width: 58%;
+      width: 33.75rem;
       overflow: hidden;
 
       img {
@@ -31,14 +29,14 @@
     }
 
     .form {
-      width: 42%;
+      width: 420px;
       padding: 10% 30px;
       position: relative;
       background: #fff;
 
       .title {
         text-align: center;
-        font-size: 25px;
+        font-size: 1.8rem;
         font-weight: 350;
         padding-bottom: 12%;
         color: #0a2640;
@@ -86,7 +84,7 @@
         color: #0a2640;
       }
 
-      a {
+      .create_account {
         display: inline-block;
         text-decoration: none;
         font-size: 19px;
@@ -109,9 +107,12 @@
   display: flex;
   align-items: center;
 
-  span {
+  .welcome_span {
     color: #fff;
     font-size: 20px;
     padding-left: 20px;
   }
+}
+
+@media screen and (max-width: 767px) {
 }

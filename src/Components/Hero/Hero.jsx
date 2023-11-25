@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <div className="hero">
         <div className="hero_wripper">
-          <div className="hero_content">
+          <div className="hero_content hero_content1">
             <h1 className="hero_title">
               Save time by building fast with Boldo Template
             </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero_content hero_content2">
-            <img src="src/assets/hero-graphics.png" alt="" />
+            <img src={herographic} alt="herographic" className="img" />
           </div>
         </div>
       </div>

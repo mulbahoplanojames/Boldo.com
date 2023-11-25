@@ -5,25 +5,26 @@
   color: #fff;
 
   .key_title {
-    font-size: 17px;
+    font-size: 1.2rem;
     padding-bottom: 1.2%;
   }
 
   .title {
-    font-size: 45px;
+    font-size: 2.5rem;
     font-weight: 300;
     padding-bottom: 2%;
+    padding: 3% 20% 6% 20%;
   }
 
   .number_wripper {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 
     .number_content {
-      width: 25%;
-      height: 25vh;
+      width: 300px;
       padding: 20px 0px;
 
       .num {
@@ -33,8 +34,18 @@
       }
 
       .description {
-        font-size: 18px;
+        font-size: 1.3rem;
       }
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .number .title {
+    font-size: 1.8rem;
+    padding: 3% 0px 8% 0px;
+  }
+  .number .number_wripper {
+    width: 95%;
   }
 }

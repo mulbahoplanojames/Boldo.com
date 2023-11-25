@@ -1,21 +1,27 @@
 .blog_news {
-    padding: 1.4% 8% 5% 8%;
-    text-align: center;
+  padding: 1.4% 8% 5% 8%;
+  text-align: center;
 
-.blog_news_wripper {
+  .blog_news_wripper {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 80px;
     row-gap: 40px;
     flex-wrap: wrap;
-}
+  }
 
-.title {
+  .title {
     font-size: 45px;
     padding-bottom: 5%;
     font-weight: 300;
     padding: 5% 0px;
     text-align: start;
+  }
 }
+
+@media screen and (max-width: 767px) {
+  .blog_news .title {
+    padding: 5% 0px 12% 0px;
+  }
 }

@@ -8,15 +8,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 40px;
   padding: 3%;
 
   .footer_content {
-    width: 45%;
-    height: 36vh;
+    width: 33.375rem;
+    padding: 3% 0px;
 
     .logo {
-      width: 150px;
+      width: 10rem;
       height: 40px;
 
       img {
@@ -36,7 +37,7 @@
     }
 
     .title {
-      font-size: 26px;
+      font-size: 1.4rem;
       padding-bottom: 8%;
       font-variant: var(--primary_Clr);
     }
@@ -49,7 +50,7 @@
       font-size: 19px;
       padding: 5% 0px;
 
-      a {
+      .a {
         text-decoration: none;
         color: #000;
         opacity: 0.5;
@@ -57,9 +58,9 @@
     }
 
     .link {
-        a:hover {
-            opacity: 1;
-        }
+      a:hover {
+        opacity: 1;
+      }
     }
   }
 
