@@ -9,13 +9,14 @@ import blogimg2 from "../../assets/2B.png";
 import profile2 from "../../assets/profile2.png";
 import blogimg3 from "../../assets/3B.png";
 import profile3 from "../../assets/profile3.png";
+import "animate.css";
 
 const Blog = () => {
   return (
     <>
       <div className="blog">
         <p className="main_title">Our Blog</p>
-        <h1 className="title">
+        <h1 className="title animate__animated  animate__fadeInRightBig">
           Value proposition accelerator products <br /> management venture
         </h1>
 
@@ -37,7 +38,7 @@ const Blog = () => {
             name={"Rachel Green"}
           />
           <BlogCard
-            head_image={<img src={blogimg3} className="img"/>}
+            head_image={<img src={blogimg3} className="img" />}
             date={"October 25, 2022"}
             description={
               "Beta protostye sale ipad Gen-z marketing network effect value proposition"

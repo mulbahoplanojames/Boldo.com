@@ -6,6 +6,7 @@ import { BsPersonFillLock } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import img5 from "../../assets/login.jpg";
 import Swal from "sweetalert2";
+import "animate.css";
 
 const Login = () => {
   const [name, setName] = useState("");
@@ -41,7 +42,7 @@ const Login = () => {
     <>
       <div className="login">
         <div className="login_wripper">
-          <div className="form_wripper">
+          <div className="form_wripper animate__animated animate__fadeInDownBig">
             <div className="img">
               <img src={img5} alt="voy with a computer" />
             </div>

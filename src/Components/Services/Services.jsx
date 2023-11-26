@@ -1,6 +1,7 @@
 import React from "react";
 import "/src/Components/Services/Services.css";
 import ServiceInitialCard from "./ServiceInitialCard";
+import "animate.css";
 import img1 from "../../assets/1.png";
 import img2 from "../../assets/2.png";
 import img3 from "../../assets/3.png";
@@ -10,7 +11,7 @@ const Services = () => {
     <>
       <div className="services">
         <p className="main-title">Our Services</p>
-        <h1 className="service_title">
+        <h1 className="service_title animate__animated  animate__fadeInRightBig">
           Crowdfunding Handshake Infographic for Mass <br /> Market Iteration.
         </h1>
 

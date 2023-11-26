@@ -6,6 +6,7 @@ import storyimg2 from "../../assets/3B.png";
 import storyimg3 from "../../assets/2B.png";
 import storyimg4 from "../../assets/3c.png";
 import storyimg5 from "../../assets/5A.png";
+import "animate.css";
 
 const OurStory = () => {
   return (
@@ -44,11 +45,13 @@ const OurStory = () => {
         </div>
 
         <div className="our_story_wripper">
-          <p className="key_title">Our Story</p>
-          <h1 className="title">
+          <p className="key_title animate__animated animate__fadeIn">
+            Our Story
+          </p>
+          <h1 className="title animate__animated animate__fadeInDownBig">
             Infographic for mainstream crowdfunding with a handshake theme.
           </h1>
-          <p className="description">
+          <p className="description animate__animated animate__fadeInUpBig">
             Angel investor conversion, entrepreneur's first-mover advantage.
             Handshake infographic, mass market crowdfunding iteration. Traction,
             stock user experience deployment beta, innovator incubator focus.
