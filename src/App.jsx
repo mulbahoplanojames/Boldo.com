@@ -1,15 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
-import Navbar from "./Components/Navigation/Navbar";
-import Home from "./Home";
-import About from "./About";
-import Blogs from "./Blogs";
+import Home from "/src/Pages/Home.jsx";
+import Navbar from "./Layout/Navigation/Navbar";
+import About from "/src/Pages/About.jsx";
+import Blogs from "/src/Pages/Blogs.jsx";
 import Login from "./Components/Login/Login";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Layout/Footer/Footer";
 
 const App = () => {
   return (
-    <>s
+    <>
       <BrowserRouter>
         <Navbar />
         <Routes>
