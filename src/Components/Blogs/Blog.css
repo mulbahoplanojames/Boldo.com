@@ -16,6 +16,7 @@
   }
 }
 
+/*! Blog Card Styles  */
 .blogs_wripper {
   display: flex;
   justify-content: center;
@@ -28,6 +29,7 @@
   width: 18rem;
   border-radius: 1.875rem;
   overflow: hidden;
+  cursor: pointer;
 
   .head {
     height: 40vh;

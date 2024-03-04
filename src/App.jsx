@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "/src/Pages/Home.jsx";
 import Navbar from "./Layout/Navigation/Navbar";
 import About from "/src/Pages/About.jsx";
@@ -18,7 +17,7 @@ const App = () => {
           <Route path="/blogs" element={<Blogs />}></Route>
           <Route path="login" element={<Login />}></Route>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );
