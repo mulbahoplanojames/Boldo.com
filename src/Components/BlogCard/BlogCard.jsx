@@ -1,4 +1,4 @@
-import React from "react";
+import "/src/Components/Blogs/Blog.css";
 
 const BlogCard = (props) => {
   const { head_image, date, description, blog_img, name } = props;
@@ -15,7 +15,7 @@ const BlogCard = (props) => {
         </div>
         <div className="bloger">
           <div className="img">{blog_img}</div>
-          <p className="name">{ name}</p>
+          <p className="name">{name}</p>
         </div>
       </div>
     </>
@@ -24,4 +24,4 @@ const BlogCard = (props) => {
 
 export default BlogCard;
 
-// Styles are in the Blog.css
+//! Styles are in the Blog.css

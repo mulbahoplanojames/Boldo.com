@@ -1,6 +1,4 @@
-import React from "react";
-import "/src/Components/BlogNews/BlogNews.css";
-import BlogCard from "../Blogs/BlogCard";
+import BlogCard from "../BlogCard/BlogCard";
 import BlogBtn from "../Buttons/BlogBtn";
 import ImageCard from "../OurStory/ImageCard";
 import storyimg1 from "../../assets/1B.png";
@@ -15,6 +13,7 @@ import profile2 from "../../assets/profile2.png";
 import profile3 from "../../assets/profile3.png";
 import profile4 from "../../assets/potter.png";
 import profile5 from "../../assets/albut.png";
+import "/src/Components/BlogNews/BlogNews.css";
 
 const BlogNews = () => {
   return (

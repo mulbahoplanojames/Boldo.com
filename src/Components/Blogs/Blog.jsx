@@ -1,6 +1,5 @@
-import React from "react";
 import "/src/Components/Blogs/Blog.css";
-import BlogCard from "./BlogCard";
+import BlogCard from "../BlogCard/BlogCard";
 import BlogBtn from "../Buttons/BlogBtn";
 import { Link } from "react-router-dom";
 import blogimg1 from "../../assets/1.png";
