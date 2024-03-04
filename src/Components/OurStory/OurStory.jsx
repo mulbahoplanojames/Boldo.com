@@ -1,4 +1,3 @@
-import React from "react";
 import "/src/Components/OurStory/OurStory.css";
 import ImageCard from "./ImageCard";
 import storyimg1 from "../../assets/1B.png";

@@ -1,4 +1,3 @@
-import React from "react";
 import "/src/Components/Login/Login.css";
 import { useState, useEffect } from "react";
 import { GrMail } from "react-icons/gr";
