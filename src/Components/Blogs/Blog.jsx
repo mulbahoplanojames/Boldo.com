@@ -20,7 +20,7 @@ const Blog = () => {
               <BlogCard
                 key={homeblog.id}
                 head_image={<img src={homeblog.blogImage} className="img" />}
-                date={homeblog.data}
+                date={homeblog.date}
                 description={homeblog.description}
                 blog_img={
                   <img
