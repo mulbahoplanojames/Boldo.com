@@ -1,11 +1,11 @@
 import BlogCard from "../BlogCard/BlogCard";
 import BlogBtn from "../Buttons/BlogBtn";
-import ImageCard from "../OurStory/ImageCard";
+// import ImageCard from "../OurStory/ImageCard";
 import storyimg1 from "../../assets/1B.png";
 import storyimg2 from "../../assets/3B.png";
 import storyimg3 from "../../assets/2B.png";
 import storyimg4 from "../../assets/3c.png";
-import storyimg5 from "../../assets/5A.png";
+// import storyimg5 from "../../assets/5A.png";
 import storyimg6 from "../../assets/A5.png";
 import storyimg7 from "../../assets/2.png";
 import profile1 from "../../assets/profile1.png";
