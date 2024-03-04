@@ -1,5 +1,5 @@
 import "/src/Components/Login/Login.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { GrMail } from "react-icons/gr";
 import { BsPersonFillLock } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -10,17 +10,11 @@ import "animate.css";
 const Login = () => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
-  const [submit, setSubmit] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setName("");
-    setPassword("");
-    // setSubmit(
-    //   alert(
-    //     `Hi, thanks for reaching out to us we will get back to you shortly on this ${name}`
-    //   )
-    // );
+
     Swal.fire({
       title: "Do you want to save the changes?",
       showDenyButton: true,
@@ -48,7 +42,7 @@ const Login = () => {
 
             <div className="form">
               <h2 className="title">Login your account</h2>
-              <form action="/">
+              <form onSubmit={handleSubmit}>
                 <div className="input_wripper">
                   <input
                     type="text"
@@ -70,12 +64,7 @@ const Login = () => {
                   <BsPersonFillLock className="icon" />
                 </div>
                 <div>
-                  <input
-                    type="submit"
-                    id="submit"
-                    value={"login"}
-                    onClick={handleSubmit}
-                  />
+                  <input type="submit" id="submit" value={"login"} />
                 </div>
                 <p>
                   <Link to="/" className="create_account">
