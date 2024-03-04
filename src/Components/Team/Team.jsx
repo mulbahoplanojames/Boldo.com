@@ -1,9 +1,6 @@
-import React from "react";
 import "/src/Components/Team/Team.css";
 import TeamCard from "./TeamCard";
-import team1 from "../../assets/team1.png";
-import team2 from "../../assets/team2.png";
-import team3 from "../../assets/team3.png";
+import { teamMembers } from "../../Constant/Constant";
 
 const Team = () => {
   return (
@@ -18,21 +15,18 @@ const Team = () => {
         </p>
 
         <div className="team_card_wripper">
-          <TeamCard
-            image={<img src={team1} alt="team member"></img>}
-            name="Oplano Mulbah"
-            position="Co-Founder"
-          />
-          <TeamCard
-            image={<img src={team2} alt="team member"></img>}
-            name="Dwight Schrute"
-            position="General Manager"
-          />
-          <TeamCard
-            image={<img src={team3} alt="team member"></img>}
-            name="John Stephen"
-            position="Softwere Engineer"
-          />
+          {teamMembers.map((teamMember) => {
+            return (
+              <TeamCard
+                key={teamMember.id}
+                image={
+                  <img src={teamMember.image} alt="team members images"></img>
+                }
+                name={teamMember.name}
+                position={teamMember.position}
+              />
+            );
+          })}
         </div>
       </div>
     </>
