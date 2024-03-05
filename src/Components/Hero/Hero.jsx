@@ -4,15 +4,14 @@ import Btn2 from "../Buttons/Btn2";
 import { Link } from "react-router-dom";
 import "animate.css";
 import herographic from "../../assets/hero-graphics.png";
-
+//animate__animated animate__fadeIn
+// animate__animated animate__fadeIn
 const Hero = () => {
   return (
     <>
       <div className={Styles.hero}>
         <div className={Styles.hero_wripper}>
-          <div
-            className={`${Styles.hero_content} ${Styles.hero_content1} animate__animated animate__fadeIn`}
-          >
+          <div className={`${Styles.hero_content} ${Styles.hero_content1} `}>
             <h1 className={Styles.hero_title}>
               Save time by building fast with Boldo Template
             </h1>
@@ -30,9 +29,7 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div
-            className={`${Styles.hero_content} ${Styles.hero_content2} animate__animated animate__fadeIn`}
-          >
+          <div className={`${Styles.hero_content} ${Styles.hero_content2} `}>
             <img src={herographic} alt="herographic" className="img" />
           </div>
         </div>

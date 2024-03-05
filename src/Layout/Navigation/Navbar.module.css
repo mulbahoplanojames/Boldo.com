@@ -76,6 +76,7 @@ ul li:hover::after {
   font-weight: 500;
   transition: ease-in-out 0.5s;
   cursor: progress;
+  position: relative;
 }
 
 .nav_btn:hover {
@@ -96,7 +97,6 @@ ul li:hover::after {
 
 @media screen and (max-width: 767px) {
   nav {
-    /* overflow: hidden; */
     width: 100%;
   }
   .nav_links {
@@ -104,13 +104,14 @@ ul li:hover::after {
     left: 16px;
     top: -400px;
     width: 320px;
-    height: 43vh;
+    height: 40vh;
     background: #fff;
     text-align: center;
     border-radius: 20px;
     padding: 5% 0px;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
+
   .nav_links ul li {
     display: block;
     padding: 3% 0px;
