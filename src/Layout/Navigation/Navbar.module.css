@@ -27,10 +27,10 @@ nav {
   }
 }
 
-.nav_links {
+/* .nav_links {
   flex: 1;
   text-align: end;
-}
+} */
 
 .nav_links ul li {
   list-style-type: none;
@@ -76,7 +76,6 @@ ul li:hover::after {
   font-weight: 500;
   transition: ease-in-out 0.5s;
   cursor: progress;
-  position: relative;
 }
 
 .nav_btn:hover {
@@ -92,7 +91,6 @@ ul li:hover::after {
 .hideMenu {
   font-size: 2rem;
   display: none;
-  background: red;
 }
 
 @media screen and (max-width: 767px) {
@@ -102,9 +100,10 @@ ul li:hover::after {
   .nav_links {
     position: absolute;
     left: 16px;
+    right: 0;
     top: -400px;
     width: 320px;
-    height: 40vh;
+    height: 43vh;
     background: #fff;
     text-align: center;
     border-radius: 20px;
