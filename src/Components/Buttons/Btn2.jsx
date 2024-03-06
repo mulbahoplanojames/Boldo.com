@@ -1,10 +1,9 @@
-import React from "react";
 import "/src/Components/Buttons/Btns.css";
 
-const Btn2 = (props) => {
+const Btn2 = ({ value }) => {
   return (
     <>
-      <button className="btn2">{props.value}</button>
+      <button className="btn2">{value}</button>
     </>
   );
 };
