@@ -2,16 +2,20 @@
 
 ## Features
 
-- Display the pricing of each course
-- The user can send a request through the request or feedback form
-- The user can join the community section to participate in solving problems or asking questions.
-- The user can be able to obtain a job based on his or her performance
+- Display a list of blog posts that the user can gain access to
+- The user can sign up for a newsletter
+- The user can have access to website templates
+
 
 ## Technologies Used
 
-- React
-- react-router-dom
-- 
+- "animate.css": "^4.1.1",
+- "react": "^18.2.0",
+- "react-dom": "^18.2.0",
+- "react-icons": "^4.11.0",
+- "react-router-dom": "^6.18.0",
+- "react-use-state": "^0.0.1",
+- "sweetalert2": "^11.10.1"
 
 ## Getting Started
 
@@ -27,5 +31,4 @@ Could you include screenshots or images of your application here?
 
 - Icons used for this project can be found in the [react-icons](https://react-icons.github.io/react-icons/) library.
 
-Feel free to customize and enhance this README according to your project requirements.
 
