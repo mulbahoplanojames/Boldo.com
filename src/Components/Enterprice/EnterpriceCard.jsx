@@ -1,6 +1,4 @@
-import React from "react";
 import "/src/Components/Enterprice/Enterpeics.css";
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 const EnterpriceCard = (props) => {
   const { descrption, img, name, position } = props;

@@ -10,7 +10,7 @@ const Blog = () => {
     <>
       <div className="blog">
         <p className="main_title">Our Blog</p>
-        <h1 className="title animate__animated  animate__fadeInRightBig">
+        <h1 className="title">
           Value proposition accelerator products <br /> management venture
         </h1>
 
