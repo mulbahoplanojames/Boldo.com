@@ -1,4 +1,4 @@
-import EnterpriceCard from "./EnterpriceCard";
+import EnterpriceCard from "../EnterpriceCard/EnterpriceCard";
 import img6 from "../../assets/potter.png";
 import img6A from "../../assets/albut.png";
 import img7 from "../../assets/sev.png";
