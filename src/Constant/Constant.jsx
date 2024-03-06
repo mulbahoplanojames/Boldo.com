@@ -135,3 +135,35 @@ export const serviceData = [
       "LROI benefits from the network effects of the learning curve.",
   },
 ];
+
+//! Enterprice Data
+import enterpriceimg1 from "/src/assets/potter.png";
+import enterpriceimg2 from "/src/assets/albut.png";
+import enterpriceimg3 from "/src/assets/sev.png";
+
+export const enterpriceData = [
+  {
+    id: 1,
+    name: "Harry Potter",
+    position: "Team leader @ Grayffindor",
+    image: enterpriceimg1,
+    description:
+      "Release Facebook responsive web design business model canvas seed partner disruptive money monetization",
+  },
+  {
+    id: 2,
+    name: "Ablus FaWolobah",
+    position: "Manager @ Howart",
+    image: enterpriceimg2,
+    description:
+      "buyer buzz network partner disruptive non-disclosure agreement business and create an amazing atmosphere",
+  },
+  {
+    id: 3,
+    name: "Severus Snape",
+    position: "Manager @ Slytherin",
+    image: enterpriceimg3,
+    description:
+      "Learn curve infrastructure value proposition advisor strategy user experience hypotheses investor.",
+  },
+];

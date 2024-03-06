@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
               );
             })}
-            <Link to="/login">
+            <Link to="/login" onClick={hideMenu}>
               <button className={Classes.nav_btn}>Log in</button>
             </Link>
           </menu>

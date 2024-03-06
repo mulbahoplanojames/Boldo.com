@@ -1,12 +1,13 @@
-import React from 'react'
-import '/src/Components/Buttons/Btns.css'
+import "/src/Components/Buttons/Btns.css";
 
 const Btn1 = () => {
   return (
     <>
-        <button className="btn1"><span>Explore</span></button>
+      <button className="btn1">
+        <span>Explore</span>
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default Btn1
+export default Btn1;
