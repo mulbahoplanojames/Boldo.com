@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Styles from "/src/Layout/Navigation/Navbar.module.css";
+import Classes from "/src/Layout/Navigation/Navbar.module.css";
 import { Link } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
-import Logo from "../../assets/Logo.png";
+import Logo from "/src/assets/Logo.png";
 import { navLinks } from "../../Constant/Constant";
 
 const Navbar = () => {
@@ -24,27 +24,29 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className={Styles.logo}>
-          <Link to="/">
-            <img src={Logo} alt="Logo" className={Styles.img} />
-          </Link>
-        </div>
-        <MdMenu className={Styles.showMenu} onClick={showMenu} />
-        <div className={Styles.nav_links} style={navLinkStyle}>
-          <ul>
+        <Link to={"/"} className={Classes.logo}>
+          <img src={Logo} alt="" className={Classes.img} />
+        </Link>
+
+        <MdMenu className={Classes.showMenu} onClick={showMenu} />
+
+        <div className={Classes.nav_links} style={navLinkStyle}>
+          <menu>
             {navLinks.map((navlink) => {
               return (
                 <li key={navlink.label}>
-                  <Link to={navlink.href}>{navlink.label}</Link>
+                  <Link to={navlink.href} onClick={hideMenu}>
+                    {navlink.label}
+                  </Link>
                 </li>
               );
             })}
             <Link to="/login">
-              <button className={Styles.nav_btn}>Log in</button>
+              <button className={Classes.nav_btn}>Log in</button>
             </Link>
-          </ul>
+          </menu>
 
-          <RxCross2 className={Styles.hideMenu} onClick={hideMenu} />
+          <RxCross2 className={Classes.hideMenu} onClick={hideMenu} />
         </div>
       </nav>
     </>

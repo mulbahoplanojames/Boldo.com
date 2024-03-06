@@ -10,14 +10,14 @@ nav {
   align-items: center;
   padding: 2% 6%;
   position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 2;
+  top: 0;
+  z-index: 1;
   background: linear-gradient(to top, hsl(209, 74%, 15%), hsl(209, 75%, 22%));
 }
 
 .logo {
-  width: 6rem;
+  width: 5rem;
   height: 4vh;
   overflow: hidden;
 
@@ -27,48 +27,18 @@ nav {
   }
 }
 
-/* .nav_links {
-  flex: 1;
-  text-align: end;
-} */
-
-.nav_links ul li {
-  list-style-type: none;
+.nav_links menu li {
   display: inline-block;
   padding: 0px 35px;
+  font-size: 1.2rem;
 }
 
-.nav_links ul li a:focus {
-  color: var(--btn_Clr);
-}
-
-a {
-  text-decoration: none;
+.nav_links menu li a {
   color: #fff;
-  font-size: 18px;
-}
-
-.nav_links ul li::before {
-  margin-left: auto;
-}
-
-.nav_links ul li::after,
-ul li::before {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: var(--btn_Clr);
-  display: block;
-  transition: 0.5s;
-}
-
-.nav_links ul li:hover::before,
-ul li:hover::after {
-  width: 100%;
 }
 
 .nav_btn {
-  padding: 8px 20px;
+  padding: 6px 16px;
   border: 2px solid transparent;
   border-radius: 50px;
   background: #ffff;
@@ -96,6 +66,7 @@ ul li:hover::after {
 @media screen and (max-width: 767px) {
   nav {
     width: 100%;
+    padding: 3% 6%;
   }
   .nav_links {
     position: absolute;
@@ -111,11 +82,11 @@ ul li:hover::after {
     overflow: hidden;
   }
 
-  .nav_links ul li {
+  .nav_links menu li {
     display: block;
     padding: 3% 0px;
   }
-  .nav_links ul li a {
+  .nav_links menu li a {
     font-size: 1.7rem;
     color: var(--primary_Clr);
   }

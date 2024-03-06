@@ -1,4 +1,3 @@
-import React from "react";
 import EnterpriceCard from "./EnterpriceCard";
 import img6 from "../../assets/potter.png";
 import img6A from "../../assets/albut.png";

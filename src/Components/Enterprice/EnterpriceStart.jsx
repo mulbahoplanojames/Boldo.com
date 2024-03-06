@@ -2,7 +2,6 @@ import "/src/Components/Enterprice/EnterpriceStart.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Swal from "sweetalert2";
-import "animate.css";
 
 const EnterpriceStart = () => {
   const [email, setEmail] = useState("");

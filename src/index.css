@@ -14,3 +14,7 @@ body {
   font-weight: 400;
   position: relative;
 }
+
+a {
+  text-decoration: none;
+}
