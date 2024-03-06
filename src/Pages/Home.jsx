@@ -1,6 +1,6 @@
 import Hero from "../Components/Hero/Hero";
 import Services from "../Components/Services/Services";
-import ServiceSecondary from "../Components/Services/ServiceSecondary";
+import ServicesConnection from "../Components/ServiceConnection/ServiceConnection";
 import Enterprice from "../Components/Enterprice/Enterprice";
 import Blog from "../Components/Blogs/Blog";
 import EnterpriceStart from "../Components/CalltoAction/EnterpriceStart";
@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Hero />
       <Services />
-      <ServiceSecondary />
+      <ServicesConnection />
       <Enterprice />
       <Blog />
       <EnterpriceStart />

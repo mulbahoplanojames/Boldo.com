@@ -1,8 +1,8 @@
-import "/src/Components/Services/ServicesSecondary.css";
+import "/src/Components/ServiceConnection/ServicesConnection.css";
 import { FaLeaf, FaEye, FaStarOfDavid } from "react-icons/fa";
 import img4 from "../../assets/2A.png";
 
-const ServiceSecondary = () => {
+const ServicesConnection = () => {
   return (
     <>
       <div className="connect_customer">
@@ -38,4 +38,4 @@ const ServiceSecondary = () => {
   );
 };
 
-export default ServiceSecondary;
+export default ServicesConnection;
