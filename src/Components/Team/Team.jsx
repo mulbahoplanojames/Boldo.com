@@ -1,5 +1,5 @@
 import "/src/Components/Team/Team.css";
-import TeamCard from "./TeamCard";
+import TeamCard from "../TeamCard/TeamCard";
 import { teamMembers } from "../../Constant/Constant";
 
 const Team = () => {

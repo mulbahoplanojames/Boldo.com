@@ -9,6 +9,7 @@
   border-radius: 1.25rem;
   overflow: hidden;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 
   .card_head {
     height: 62vh;

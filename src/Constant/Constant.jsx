@@ -112,3 +112,26 @@ export const blogNews = [
     date: "Novmember 25, 2022",
   },
 ];
+
+//! Services Data
+export const serviceData = [
+  {
+    id: 1,
+    title: "Cool feature title",
+    image: blogimg5,
+    description: "Learning curve network effects return on investment.",
+  },
+  {
+    id: 2,
+    title: "Even cooler Colaboration",
+    image: blogimg6,
+    description: "ROI benefits from network effects on the learning curve.",
+  },
+  {
+    id: 3,
+    title: "Essential Enterpreneurhip",
+    image: blogimg3,
+    description:
+      "LROI benefits from the network effects of the learning curve.",
+  },
+];

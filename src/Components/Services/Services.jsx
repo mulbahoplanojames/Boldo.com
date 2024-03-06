@@ -1,9 +1,7 @@
 import "/src/Components/Services/Services.css";
 import ServiceCard from "../ServicesCard/ServiceCard";
 import "animate.css";
-import img1 from "../../assets/1.png";
-import img2 from "../../assets/2.png";
-import img3 from "../../assets/3.png";
+import { serviceData } from "../../Constant/Constant";
 
 const Services = () => {
   return (
@@ -15,27 +13,16 @@ const Services = () => {
         </h1>
 
         <div className="services_primary_wripper">
-          <ServiceCard
-            card_head={<img src={img1}></img>}
-            card_title={"Cool feature title"}
-            card_description={
-              "Learning curve network effects return on investment."
-            }
-          />
-          <ServiceCard
-            card_head={<img src={img2}></img>}
-            card_title={"Even cooler Colaboration"}
-            card_description={
-              "ROI benefits from network effects on the learning curve."
-            }
-          />
-          <ServiceCard
-            card_head={<img src={img3}></img>}
-            card_title={"Essential Enterpreneurhip"}
-            card_description={
-              "LROI benefits from the network effects of the learning curve."
-            }
-          />
+          {serviceData.map((data) => {
+            return (
+              <ServiceCard
+                key={data.id}
+                card_head={<img src={data.image}></img>}
+                card_title={data.title}
+                card_description={data.description}
+              />
+            );
+          })}
         </div>
       </div>
     </>
