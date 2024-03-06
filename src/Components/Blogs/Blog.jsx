@@ -9,8 +9,8 @@ const Blog = () => {
   return (
     <>
       <div className="blog">
-        <p className="main_title">Our Blog</p>
-        <h1 className="title">
+        <p className="main_title animate__animated animate__flash">Our Blog</p>
+        <h1 className="title animate__animated animate__flash">
           Value proposition accelerator products <br /> management venture
         </h1>
 

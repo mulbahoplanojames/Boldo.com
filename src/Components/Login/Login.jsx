@@ -14,6 +14,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setName("");
+    setPassword("");
 
     Swal.fire({
       title: "Do you want to save the changes?",

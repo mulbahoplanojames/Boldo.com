@@ -43,7 +43,7 @@ const OurStory = () => {
           </div>
         </div>
 
-        <div className="our_story_wripper">
+        <div className="our_story_wripper animate__animated  animate__zoomInDown">
           <p className="key_title">Our Story</p>
           <h1 className="title ">
             Infographic for mainstream crowdfunding with a handshake theme.

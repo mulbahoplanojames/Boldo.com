@@ -3,7 +3,7 @@ import "/src/Components/Number/NUmber.css";
 const Number = () => {
   return (
     <>
-      <div className="number">
+      <div className="number animate__animated animate__fadeIn">
         <p className="key_title">Our numbers</p>
         <h1 className="title">
           Handshake infographic mass market crowdfunding iteration.

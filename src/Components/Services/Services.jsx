@@ -8,7 +8,7 @@ const Services = () => {
     <>
       <div className="services">
         <p className="main-title">Our Services</p>
-        <h1 className="service_title">
+        <h1 className="service_title animate__animated animate__flash">
           Crowdfunding Handshake Infographic for Mass <br /> Market Iteration.
         </h1>
 
