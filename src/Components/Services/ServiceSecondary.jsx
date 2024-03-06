@@ -1,4 +1,3 @@
-import React from "react";
 import "/src/Components/Services/ServicesSecondary.css";
 import { FaLeaf, FaEye, FaStarOfDavid } from "react-icons/fa";
 import img4 from "../../assets/2A.png";

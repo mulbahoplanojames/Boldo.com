@@ -1,4 +1,3 @@
-import React from "react";
 import "/src/Components/Number/NUmber.css";
 
 const Number = () => {

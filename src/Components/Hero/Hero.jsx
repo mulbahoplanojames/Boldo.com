@@ -4,8 +4,7 @@ import Btn2 from "../Buttons/Btn2";
 import { Link } from "react-router-dom";
 import "animate.css";
 import herographic from "../../assets/hero-graphics.png";
-//animate__animated animate__fadeIn
-// animate__animated animate__fadeIn
+
 const Hero = () => {
   return (
     <>

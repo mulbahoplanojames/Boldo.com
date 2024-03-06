@@ -1,6 +1,6 @@
 import Bloghero from "../Components/BlogsHero/Bloghero";
 import BlogNews from "../Components/BlogNews/BlogNews";
-import EnterpriceStart from "../Components/Enterprice/EnterpriceStart";
+import EnterpriceStart from "../Components/CalltoAction/EnterpriceStart";
 
 const Blogs = () => {
   return (

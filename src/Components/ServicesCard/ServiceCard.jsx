@@ -1,8 +1,7 @@
-import React from "react";
-import "/src/Components/Services/ServiceInitialCard.css";
+import "/src/Components/ServicesCard/ServiceCard.css";
 import { BiRightArrowAlt } from "react-icons/bi";
 
-const ServiceInitialCard = (props) => {
+const ServiceCard = (props) => {
   const { card_head, card_title, card_description } = props;
 
   return (
@@ -24,4 +23,4 @@ const ServiceInitialCard = (props) => {
   );
 };
 
-export default ServiceInitialCard;
+export default ServiceCard;

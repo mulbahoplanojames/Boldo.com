@@ -3,7 +3,7 @@ import Services from "../Components/Services/Services";
 import ServiceSecondary from "../Components/Services/ServiceSecondary";
 import Enterprice from "../Components/Enterprice/Enterprice";
 import Blog from "../Components/Blogs/Blog";
-import EnterpriceStart from "../Components/Enterprice/EnterpriceStart";
+import EnterpriceStart from "../Components/CalltoAction/EnterpriceStart";
 
 const Home = () => {
   return (

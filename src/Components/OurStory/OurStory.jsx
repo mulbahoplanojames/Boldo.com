@@ -5,9 +5,7 @@ import storyimg2 from "../../assets/3B.png";
 import storyimg3 from "../../assets/2B.png";
 import storyimg4 from "../../assets/3c.png";
 import storyimg5 from "../../assets/5A.png";
-// import "animate.css";
-//animate__animated animate__fadeIn
-// animate__animated animate__fadeInDownBig
+import "animate.css";
 
 const OurStory = () => {
   return (

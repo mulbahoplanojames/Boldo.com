@@ -1,12 +1,11 @@
-import React from 'react'
-import '/src/Components/OurStory/OurStory.css'
+import "/src/Components/OurStory/OurStory.css";
 
-const ImageCard = (props) => {
+const ImageCard = ({ image }) => {
   return (
     <>
-        <div className="image_card">{props.image}</div>
+      <div className="image_card">{image}</div>
     </>
-  )
-}
+  );
+};
 
-export default ImageCard
+export default ImageCard;
