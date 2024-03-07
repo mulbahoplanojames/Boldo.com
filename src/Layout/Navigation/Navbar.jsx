@@ -15,6 +15,7 @@ const Navbar = () => {
 
   const hideMenu = () => {
     setMenuVisibility(false);
+    window.scrollTo({ top: 0, left: 0 });
   };
 
   const navLinkStyle = {

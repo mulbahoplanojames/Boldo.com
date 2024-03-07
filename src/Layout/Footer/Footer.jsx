@@ -1,6 +1,12 @@
+import { Link } from "react-router-dom";
 import Styles from "/src/Layout/Footer/Footer.module.css";
 
 const Footer = () => {
+  //! This function help to navigate the user to the top of the page when they click on the link
+  const handleScroll = () => {
+    window.scrollTo({ top: 0, left: 0 });
+  };
+
   return (
     <>
       <div className={Styles.footer}>
@@ -18,55 +24,55 @@ const Footer = () => {
           <div className={Styles.links}>
             <h3 className={Styles.title}>Landings</h3>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
+              <Link to="/" className={Styles.lin} onClick={handleScroll}>
                 Home
-              </a>
+              </Link>
             </p>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
-                Products
-              </a>
+              <Link to="/about" className={Styles.lin} onClick={handleScroll}>
+                About
+              </Link>
             </p>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
-                Services
-              </a>
+              <Link to="/blogs" className={Styles.lin} onClick={handleScroll}>
+                Blogs
+              </Link>
             </p>
           </div>
           <div className={Styles.links}>
             <h3 className={Styles.title}>Company</h3>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
-                Home
-              </a>
+              <Link to="/login" className={Styles.lin} onClick={handleScroll}>
+                Log in
+              </Link>
             </p>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
+              <Link to="/" className={Styles.lin} onClick={handleScroll}>
                 Carrer
-              </a>
+              </Link>
             </p>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
+              <Link to="/" className={Styles.lin} onClick={handleScroll}>
                 Services
-              </a>
+              </Link>
             </p>
           </div>
           <div className={Styles.links}>
             <h3 className={Styles.title}>Resources</h3>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
+              <Link to="/" className={Styles.lin} onClick={handleScroll}>
                 Home
-              </a>
+              </Link>
             </p>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
+              <Link to="/" className={Styles.lin} onClick={handleScroll}>
                 Products
-              </a>
+              </Link>
             </p>
             <p className={Styles.link}>
-              <a href="/" className={Styles.a}>
+              <Link to="/" className={Styles.lin} onClick={handleScroll}>
                 Services
-              </a>
+              </Link>
             </p>
           </div>
         </div>
