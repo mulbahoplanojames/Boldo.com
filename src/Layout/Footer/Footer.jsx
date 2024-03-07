@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Styles from "/src/Layout/Footer/Footer.module.css";
+import logo from "/src/assets/black-logo.png";
 
 const Footer = () => {
   //! This function help to navigate the user to the top of the page when they click on the link
@@ -9,10 +10,10 @@ const Footer = () => {
 
   return (
     <>
-      <div className={Styles.footer}>
+      <section className={Styles.footer}>
         <div className={Styles.footer_content}>
           <div className={Styles.logo}>
-            <img src="src/assets/black-logo.png" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <p className={Styles.description}>
             Social media validation business model canvas graphical <br /> user
@@ -76,7 +77,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
