@@ -34,15 +34,16 @@ const Login = () => {
 
   return (
     <>
-      <div className="login">
+      <section className="wripper">
         <div className="login_wripper">
-          <div className="form_wripper animate__animated animate__fadeInDownBig">
-            <div className="img">
+          <div className="form_main_wripper animate__animated animate__fadeInDownBig">
+            <div className="image_wripper">
               <img src={img5} alt="voy with a computer" />
             </div>
 
-            <div className="form">
+            <div className="form_wripper">
               <h2 className="title">Login your account</h2>
+
               <form onSubmit={handleSubmit}>
                 <div className="input_wripper">
                   <input
@@ -73,13 +74,14 @@ const Login = () => {
                   </Link>
                 </p>
               </form>
+
               <div className="welcome_back">
                 <span className="welcome_span">Welcome Back</span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

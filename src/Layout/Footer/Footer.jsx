@@ -18,7 +18,7 @@ const Footer = () => {
             Social media validation business model canvas graphical <br /> user
             interface launch party creative facebook iPad twitter.
           </p>
-          <p className={Styles.copy_right}>All right reserved</p>
+          <p className={Styles.copy_right}>All right reserved : Oplano james</p>
         </div>
         <div className={`${Styles.footer_content} ${Styles.content_two}`}>
           <div className={Styles.links}>
