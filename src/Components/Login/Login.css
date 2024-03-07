@@ -35,6 +35,8 @@
   padding: 10% 30px;
   position: relative;
   background: #fff;
+  text-align: center;
+  height: fit-content;
 
   .title {
     text-align: center;
@@ -76,9 +78,9 @@
   border: 2px solid transparent;
   cursor: progress;
   transition: 0.5s ease-out;
-  margin-left: 27%;
   color: #fff;
   background: #0a2640;
+  margin-bottom: 1.3rem;
 }
 
 #submit:hover {
@@ -92,7 +94,7 @@
   text-decoration: none;
   font-size: 19px;
   color: #0a2640;
-  padding: 30px 0px 0px 30%;
+  text-align: center;
 }
 
 /*! This style is for the welcome that float on the left over the login form  */
@@ -128,7 +130,6 @@
   }
   .image_wripper {
     height: 45vh;
-    /* display: none; */
   }
   .form_wripper {
     height: fit-content;

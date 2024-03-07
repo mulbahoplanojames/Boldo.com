@@ -3,18 +3,23 @@ import { useState } from "react";
 import { GrMail } from "react-icons/gr";
 import { BsPersonFillLock } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { FaUser } from "react-icons/fa";
 import img5 from "/src/assets/login.jpg";
 import Swal from "sweetalert2";
 import "animate.css";
 
-const Login = () => {
+const Signup = () => {
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [retypePassword, setRetypePassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setName("");
     setPassword("");
+    setPassword("");
+    setRetypePassword("");
 
     Swal.fire({
       title: "Do you want to save the changes?",
@@ -48,11 +53,22 @@ const Login = () => {
                 <div className="input_wripper">
                   <input
                     type="text"
-                    placeholder="Username"
+                    placeholder="Full Name"
                     className="input"
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
+                  />
+                  <FaUser className="icon" />
+                </div>
+                <div className="input_wripper">
+                  <input
+                    type="email"
+                    placeholder="E-mail"
+                    className="input"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                   <GrMail className="icon" />
                 </div>
@@ -67,12 +83,23 @@ const Login = () => {
                   />
                   <BsPersonFillLock className="icon" />
                 </div>
+                <div className="input_wripper">
+                  <input
+                    type="password"
+                    placeholder="Re-type Password"
+                    required
+                    className="input"
+                    value={retypePassword}
+                    onChange={(e) => setRetypePassword(e.target.value)}
+                  />
+                  <BsPersonFillLock className="icon" />
+                </div>
                 <div>
                   <input type="submit" id="submit" value={"login"} />
                 </div>
                 <p>
-                  <Link to="/signup" className="create_account">
-                    Create account
+                  <Link to="/login" className="create_account">
+                    Already have an account? Login
                   </Link>
                 </p>
               </form>
@@ -88,4 +115,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;
