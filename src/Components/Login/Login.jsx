@@ -3,7 +3,7 @@ import { useState } from "react";
 import { GrMail } from "react-icons/gr";
 import { BsPersonFillLock } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import img5 from "../../assets/login.jpg";
+import img5 from "/src/assets/login.jpg";
 import Swal from "sweetalert2";
 import "animate.css";
 
@@ -50,6 +50,7 @@ const Login = () => {
                     type="text"
                     placeholder="Username"
                     className="input"
+                    required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
@@ -59,6 +60,7 @@ const Login = () => {
                   <input
                     type="password"
                     placeholder="Password"
+                    required
                     className="input"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}

@@ -123,11 +123,17 @@
     width: 95%;
     margin-top: 4rem;
   }
+  .title {
+    padding-top: 12%;
+  }
   .image_wripper {
     height: 45vh;
     /* display: none; */
   }
   .form_wripper {
     height: fit-content;
+  }
+  .welcome_back {
+    top: 0;
   }
 }
